@@ -1,0 +1,25 @@
+{
+  "name": "jorge-aluizio-mini-curso-reactjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zugzwangbw/jorge-aluizio-mini-curso-reactjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zugzwangbw/jorge-aluizio-mini-curso-reactjs/issues"
+  },
+  "homepage": "https://github.com/zugzwangbw/jorge-aluizio-mini-curso-reactjs#readme",
+  "dependencies": {
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
