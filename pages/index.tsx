@@ -1,11 +1,21 @@
+import Head from "next/head";
 import { useState } from "react";
 
-function Home() {
+export default function Home() {
   return (
     <div>
-      <div>Home 0</div>
-      <Contador />
-      <div>Home 1</div>
+      <Head>
+        <title>Homepage</title>
+      </Head>
+
+      <main>
+        <h1>Hello World</h1>
+        <Contador />
+      </main>
+
+      <footer>
+        <a>Powered by</a>
+      </footer>
     </div>
   );
 }
@@ -24,5 +34,3 @@ function Contador() {
     </div>
   );
 }
-
-export default Home;
